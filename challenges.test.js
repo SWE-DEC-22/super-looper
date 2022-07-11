@@ -2,8 +2,8 @@ const {
   stringRange,
   evenString,
   stringExcept,
-  sumUp,
-  power,
+  arithmeticSum,
+  factorial,
   countDigits,
   sumOfDigits,
   maxMinDiff,
@@ -24,11 +24,11 @@ test('String Except', () => {
 })
 
 test('Sum Up', () => {
-  expect(sumUp(100)).toBe(100 * 101 / 2)
+  expect(sumUp(5, 4, 100)).toBe((n/2) * (2*a + 99 * 4))
 })
 
-test('Power', () => {
-  expect(power(3, 7)).toBe(3**7)
+test('Factorial', () => {
+  expect(factorial(23)).toBe(25852016738884976640000)
 })
 
 test('Count Digits', () => {

@@ -35,9 +35,12 @@ const stringExcept = (arr, n) => {
 
 /**
  * 4.
- * Write a function that uses a loop to add together the integers from 1 to n
- * e.g. (3) => 6
- * @param {number} n 
+ * Write a function which uses a loop to sum an arithmetic sequence
+ * https://mathematico.org/skills/pure/sequences/arithmetic-sequences
+ * e.g. (3, 2, 4) => 3 + 5 + 7 + 9 = 24
+ * @param {number} a - the first term of the sequence
+ * @param {number} d - the common difference in the sequence
+ * @param {number} n - the number of terms in the sequence
  * @returns {number}
  */
 const sumUp = (n) => {
@@ -46,13 +49,13 @@ const sumUp = (n) => {
 
 /**
  * 5.
- * Write a function that uses a loop to return a to the power of b - don't use ** or Math.pow()!
- * e.g. (2, 3) => 8
- * @param {number} a 
- * @param {number} b
+ * Write a function that uses a loop to return the factorial of n.
+ * (N.b. The factorial of 5 is 5*4*3*2*1 = 120. See here https://en.wikipedia.org/wiki/Factorial).
+ * e.g. (4) => 24
+ * @param {number} n
  * @returns {number}
  */
-const power = (a, b) => {
+const factorial = (a, b) => {
   // code here
 }
 
@@ -116,7 +119,7 @@ module.exports = {
   evenString,
   stringExcept,
   sumUp,
-  power,
+  factorial,
   countDigits,
   sumOfDigits,
   maxMinDiff,
