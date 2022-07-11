@@ -107,12 +107,15 @@ const matrixSum = (M) => {
 /**
  * 10.
  * Write a function which uses loops to return the sum of the first n fibonacci numbers
+ * The sequence begins 1, 1, 2, 3, 5, 8, ... the next term is the sum of the previous two terms
  * @param {number} n
  * @returns {number}
  */
 const fibonacciSum = (n) => {
   // code here
 }
+
+// don't change below!
 
 module.exports = {
   stringRange,
