@@ -48,5 +48,5 @@ test('Matrix Sum', () => {
 })
 
 test('Fibonacci Sum', () => {
-  expect(fibonacciSum(100)).toBe(927372692193078999176)
+  expect(fibonacciSum(100)).toBe(927372692193078999175)
 })
