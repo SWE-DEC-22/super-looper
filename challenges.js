@@ -35,15 +35,13 @@ const stringExcept = (arr, n) => {
 
 /**
  * 4.
- * Write a function which uses a loop to sum an arithmetic sequence
- * https://mathematico.org/skills/pure/sequences/arithmetic-sequences
- * e.g. (3, 2, 4) => 3 + 5 + 7 + 9 = 24
- * @param {number} a - the first term of the sequence
- * @param {number} d - the common difference in the sequence
- * @param {number} n - the number of terms in the sequence
- * @returns {number}
+ * Write a loop that calculates the number of times required to fold a piece of
+ * toilet paper in half until it is thick enough to fill the distance between 
+ * the Earth and the Moon
+ * (Earth to Moon is 384,400 km and a piece of toilet paper is 0.2mm thick)
+ * @returns {number} the number of folds required
  */
-const sumUp = (n) => {
+const toTheMoon = () => {
   // code here
 }
 
@@ -121,7 +119,7 @@ module.exports = {
   stringRange,
   evenString,
   stringExcept,
-  sumUp,
+  toTheMoon,
   factorial,
   countDigits,
   sumOfDigits,

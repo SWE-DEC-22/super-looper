@@ -2,7 +2,7 @@ const {
   stringRange,
   evenString,
   stringExcept,
-  arithmeticSum,
+  toTheMoon,
   factorial,
   countDigits,
   sumOfDigits,
@@ -23,8 +23,8 @@ test('String Except', () => {
   expect(stringExcept([1, 3, 2, 3, 3, 3, 4, 3], 3)).toBe('1 2 4')
 })
 
-test('Sum Up', () => {
-  expect(sumUp(5, 4, 100)).toBe((n/2) * (2*a + 99 * 4))
+test('toTheMoon', () => {
+  expect(toTheMoon()).toBe(41)
 })
 
 test('Factorial', () => {
