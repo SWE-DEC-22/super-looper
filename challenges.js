@@ -53,7 +53,7 @@ const toTheMoon = () => {
  * @param {number} n
  * @returns {number}
  */
-const factorial = (a, b) => {
+const factorial = (n) => {
   // code here
 }
 
