@@ -4,11 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --bail --runInBand --testSequencer=./test/testSequencer.js",
+    "test:stringRange": "jest ./test/stringRange.test.js",
+    "test:evenString": "jest ./test/evenString.test.js",
+    "test:stringExcept": "jest ./test/stringExcept.test.js",
+    "test:toTheMoon": "jest ./test/toTheMoon.test.js",
+    "test:factorial": "jest ./test/factorial.test.js",
+    "test:countDigits": "jest ./test/countDigits.test.js",
+    "test:sumOfDigits": "jest ./test/sumOfDigits.test.js",
+    "test:maxMinDiff": "jest ./test/maxMinDiff.test.js",
+    "test:matrixSum": "jest ./test/matrixSum.test.js",
+    "test:fibonacciSum": "jest ./test/fibonacciSum.test.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2"
   }
 }

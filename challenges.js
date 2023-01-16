@@ -25,7 +25,7 @@ const evenString = (arr) => {
  * 3.
  * Write a function that uses a loop returns a space-separated string of all the elements in the array except the number n
  * e.g. ([1,2,3,4], 3) => "1 2 4"
- * @param {number[]} arr 
+ * @param {number[]} arr
  * @param {number} n
  * @returns {string}
  */
@@ -36,7 +36,7 @@ const stringExcept = (arr, n) => {
 /**
  * 4.
  * Write a loop that calculates the number of times required to fold a piece of
- * toilet paper in half until it is thick enough to fill the distance between 
+ * toilet paper in half until it is thick enough to fill the distance between
  * the Earth and the Moon
  * (Earth to Moon is 384,400 km and a piece of toilet paper is 0.2mm thick)
  * @returns {number} the number of folds required
@@ -61,7 +61,7 @@ const factorial = (n) => {
  * 6.
  * Write a function using a loop to count the number of digits in a given integer
  * e.g. (73184792) => 8
- * @param {number} n 
+ * @param {number} n
  * @returns {number}
  */
 const countDigits = (n) => {
@@ -73,7 +73,7 @@ const countDigits = (n) => {
  * Write a function using a loop to return the sum of the digits in a given number
  * e.g. (417) => 12
  * @param {number} n
- * @returns {number} 
+ * @returns {number}
  */
 const sumOfDigits = (n) => {
   // code here
@@ -84,7 +84,7 @@ const sumOfDigits = (n) => {
  * Write a function which uses a loop to return the (non-negative) difference between the largest and the smallest element of an array
  * e.g. (6, 10, 3) => 7
  * @param {number[]} arr
- * @returns {number} 
+ * @returns {number}
  */
 const maxMinDiff = (arr) => {
   //code here
@@ -125,5 +125,5 @@ module.exports = {
   sumOfDigits,
   maxMinDiff,
   matrixSum,
-  fibonacciSum
+  fibonacciSum,
 }
